@@ -1,8 +1,8 @@
-FROM local/elkbase:v01
+FROM centos:7
 MAINTAINER Diabol.se
 RUN set -ex \
-		&& curl -L -o /opt/kibana.tar.gz https://download.elastic.co/kibana/kibana/kibana-4.6.1-linux-x86_64.tar.gz
-		&& tar -xzf /opt/kibana.tar.gz -C /opt
+        && curl -L -o /opt/kibana.tar.gz https://download.elastic.co/kibana/kibana/kibana-4.6.1-linux-x86_64.tar.gz \
+        && tar -xzf /opt/kibana.tar.gz -C /opt \
         && yum update -y \
         && groupadd kibana \
         && useradd -g kibana kibana \
