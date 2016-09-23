@@ -1,7 +1,8 @@
 FROM local/elkbase:v01
 MAINTAINER Diabol.se
-ADD logstash.tar.gz /opt/
 RUN set -ex \
+		&& curl -L -o /opt/logstash.tar.gz https://download.elastic.co/logstash/logstash/logstash-all-plugins-2.4.0.tar.gz
+		&& tar -xzf /opt/logstash.tar.gz -C /opt
         && yum update -y \
         && groupadd logstash \
         && useradd -g logstash logstash \

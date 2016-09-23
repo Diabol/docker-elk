@@ -1,7 +1,8 @@
 FROM local/elkbase:v01
 MAINTAINER Diabol.se
-ADD elasticsearch.tar.gz /opt/
 RUN set -ex \
+		&& curl -L -o /opt/elasticsearch.tar.gz https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz
+		&& tar -xzf /opt/elasticsearch.tar.gz -C /opt
         && yum update -y \
         && groupadd elasticsearch \
         && useradd -g elasticsearch elasticsearch \
@@ -18,10 +19,6 @@ RUN set -ex \
 		mkdir -p "$path"; \
 		chown -R elasticsearch:elasticsearch "$path"; \
 	done
-VOLUME \ 
-    /opt/elasticsearch/data \
-    /opt/elasticsearch/logs \
-    /opt/elasticsearch/config
 EXPOSE 9200 9300
 USER elasticsearch
 ENV JAVA_HOME=/opt/java/jdk
