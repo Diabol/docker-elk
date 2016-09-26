@@ -22,4 +22,5 @@ RUN set -ex \
 USER logstash
 ENV JAVA_HOME=/opt/java/jdk
 ENV PATH=$PATH:JAVA_HOME/bin
-CMD ["/opt/logstash/bin/logstash"]
+#ENTRYPOINT ["/opt/logstash/bin/logstash"]
+CMD ["/opt/logstash/bin/logstash", "-f", "/opt/logstash/config/demo.conf"]

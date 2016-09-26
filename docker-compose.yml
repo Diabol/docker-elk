@@ -20,8 +20,9 @@ services:
     logstash:
         image: diabol/logstash
         volumes:
-            - ./logstash/config:/opt/logstash/config
+            - ./logstash/config/demo.conf:/opt/logstash/config/demo.conf
             - ./logstash/demologs:/tmp/demologs
+        command: [/opt/logstash/bin/logstash,-f,/opt/logstash/config/demo.conf]
         depends_on:
             - elasticsearch
 

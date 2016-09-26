@@ -22,63 +22,63 @@ java.lang.ArithmeticException: / by zero
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-04 21:03:10 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-04 21:03:10 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-04 21:03:11 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-04 21:03:11 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-04 21:03:12 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-04 21:03:12 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-05 21:03:10 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-05 21:03:10 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-05 21:03:11 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-05 21:03:11 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-05 21:03:12 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-05 21:03:12 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-06 21:03:10 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-06 21:03:10 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-06 21:03:11 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-06 21:03:11 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-06 21:03:12 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-06 21:03:12 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-07 21:03:10 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-07 21:03:10 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-07 21:03:11 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-07 21:03:11 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-07 21:03:12 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-07 21:03:12 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-08 21:03:10 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-08 21:03:10 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-08 21:03:11 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-08 21:03:11 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)
-2014-07-08 21:03:12 ERROR HelloExample2:16 - Sorry, something wrongå
+2014-07-08 21:03:12 ERROR HelloExample2:16 - Sorry, something wrong
 java.lang.ArithmeticException: / by zero
 	at com.mkyong.HelloExample2.divide(HelloExample2.java:24)
 	at com.mkyong.HelloExample2.main(HelloExample2.java:14)

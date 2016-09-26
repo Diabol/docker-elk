@@ -15,3 +15,137 @@
 [2016-09-26 15:36:45,299][INFO ][cluster.metadata         ] [Jocasta] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
 [2016-09-26 15:36:45,669][INFO ][cluster.routing.allocation] [Jocasta] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
 [2016-09-26 15:38:26,994][INFO ][cluster.metadata         ] [Jocasta] [.kibana] create_mapping [index-pattern]
+[2016-09-26 15:45:08,301][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 15:45:08,558][INFO ][node                     ] [Warbird] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 15:45:08,559][INFO ][node                     ] [Warbird] initializing ...
+[2016-09-26 15:45:09,992][INFO ][plugins                  ] [Warbird] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 15:45:10,059][INFO ][env                      ] [Warbird] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [38.4gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 15:45:10,061][INFO ][env                      ] [Warbird] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 15:45:14,048][INFO ][node                     ] [Warbird] initialized
+[2016-09-26 15:45:14,053][INFO ][node                     ] [Warbird] starting ...
+[2016-09-26 15:45:14,271][INFO ][transport                ] [Warbird] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 15:45:14,290][INFO ][discovery                ] [Warbird] elasticsearch/Gn7QP0_nQtaWJ0GCO6yVEw
+[2016-09-26 15:45:17,471][INFO ][cluster.service          ] [Warbird] new_master {Warbird}{Gn7QP0_nQtaWJ0GCO6yVEw}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 15:45:17,588][INFO ][http                     ] [Warbird] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 15:45:17,591][INFO ][node                     ] [Warbird] started
+[2016-09-26 15:45:17,829][INFO ][gateway                  ] [Warbird] recovered [1] indices into cluster_state
+[2016-09-26 15:45:19,769][INFO ][cluster.routing.allocation] [Warbird] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 15:45:53,363][INFO ][node                     ] [Warbird] stopping ...
+[2016-09-26 15:45:53,437][INFO ][node                     ] [Warbird] stopped
+[2016-09-26 15:45:53,438][INFO ][node                     ] [Warbird] closing ...
+[2016-09-26 15:45:53,449][INFO ][node                     ] [Warbird] closed
+[2016-09-26 15:52:44,139][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 15:52:44,548][INFO ][node                     ] [Erik Killmonger] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 15:52:44,549][INFO ][node                     ] [Erik Killmonger] initializing ...
+[2016-09-26 15:52:45,635][INFO ][plugins                  ] [Erik Killmonger] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 15:52:45,689][INFO ][env                      ] [Erik Killmonger] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.9gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 15:52:45,690][INFO ][env                      ] [Erik Killmonger] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 15:52:48,174][INFO ][node                     ] [Erik Killmonger] initialized
+[2016-09-26 15:52:48,175][INFO ][node                     ] [Erik Killmonger] starting ...
+[2016-09-26 15:52:48,254][INFO ][transport                ] [Erik Killmonger] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 15:52:48,262][INFO ][discovery                ] [Erik Killmonger] elasticsearch/dyy8O-UNThqrWZQsb3EsFw
+[2016-09-26 15:52:51,347][INFO ][cluster.service          ] [Erik Killmonger] new_master {Erik Killmonger}{dyy8O-UNThqrWZQsb3EsFw}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 15:52:51,379][INFO ][http                     ] [Erik Killmonger] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 15:52:51,380][INFO ][node                     ] [Erik Killmonger] started
+[2016-09-26 15:52:51,492][INFO ][gateway                  ] [Erik Killmonger] recovered [1] indices into cluster_state
+[2016-09-26 15:52:51,964][INFO ][cluster.routing.allocation] [Erik Killmonger] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 16:42:52,044][INFO ][node                     ] [Erik Killmonger] stopping ...
+[2016-09-26 16:42:52,144][INFO ][node                     ] [Erik Killmonger] stopped
+[2016-09-26 16:42:52,144][INFO ][node                     ] [Erik Killmonger] closing ...
+[2016-09-26 16:42:52,160][INFO ][node                     ] [Erik Killmonger] closed
+[2016-09-26 16:43:06,680][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 16:43:07,024][INFO ][node                     ] [Magnum] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 16:43:07,026][INFO ][node                     ] [Magnum] initializing ...
+[2016-09-26 16:43:08,110][INFO ][plugins                  ] [Magnum] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 16:43:08,171][INFO ][env                      ] [Magnum] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.5gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 16:43:08,172][INFO ][env                      ] [Magnum] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 16:43:10,879][INFO ][node                     ] [Magnum] initialized
+[2016-09-26 16:43:10,880][INFO ][node                     ] [Magnum] starting ...
+[2016-09-26 16:43:10,987][INFO ][transport                ] [Magnum] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 16:43:10,995][INFO ][discovery                ] [Magnum] elasticsearch/EAAWYeEbShitl_fl3udpUQ
+[2016-09-26 16:43:14,108][INFO ][cluster.service          ] [Magnum] new_master {Magnum}{EAAWYeEbShitl_fl3udpUQ}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 16:43:14,162][INFO ][http                     ] [Magnum] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 16:43:14,164][INFO ][node                     ] [Magnum] started
+[2016-09-26 16:43:14,322][INFO ][gateway                  ] [Magnum] recovered [1] indices into cluster_state
+[2016-09-26 16:43:15,057][INFO ][cluster.routing.allocation] [Magnum] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 16:44:07,204][INFO ][node                     ] [Magnum] stopping ...
+[2016-09-26 16:44:07,294][INFO ][node                     ] [Magnum] stopped
+[2016-09-26 16:44:07,295][INFO ][node                     ] [Magnum] closing ...
+[2016-09-26 16:44:07,309][INFO ][node                     ] [Magnum] closed
+[2016-09-26 16:45:11,926][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 16:45:12,443][INFO ][node                     ] [Moonstone] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 16:45:12,444][INFO ][node                     ] [Moonstone] initializing ...
+[2016-09-26 16:45:13,402][INFO ][plugins                  ] [Moonstone] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 16:45:13,450][INFO ][env                      ] [Moonstone] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.5gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 16:45:13,451][INFO ][env                      ] [Moonstone] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 16:45:15,964][INFO ][node                     ] [Moonstone] initialized
+[2016-09-26 16:45:15,965][INFO ][node                     ] [Moonstone] starting ...
+[2016-09-26 16:45:16,042][INFO ][transport                ] [Moonstone] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 16:45:16,055][INFO ][discovery                ] [Moonstone] elasticsearch/GHbd7jWZQzSzBjvalsYnAQ
+[2016-09-26 16:45:19,159][INFO ][cluster.service          ] [Moonstone] new_master {Moonstone}{GHbd7jWZQzSzBjvalsYnAQ}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 16:45:19,200][INFO ][http                     ] [Moonstone] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 16:45:19,201][INFO ][node                     ] [Moonstone] started
+[2016-09-26 16:45:19,370][INFO ][gateway                  ] [Moonstone] recovered [1] indices into cluster_state
+[2016-09-26 16:45:20,045][INFO ][cluster.routing.allocation] [Moonstone] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 16:46:49,661][INFO ][node                     ] [Moonstone] stopping ...
+[2016-09-26 16:46:49,747][INFO ][node                     ] [Moonstone] stopped
+[2016-09-26 16:46:49,748][INFO ][node                     ] [Moonstone] closing ...
+[2016-09-26 16:46:49,760][INFO ][node                     ] [Moonstone] closed
+[2016-09-26 16:47:54,172][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 16:47:54,641][INFO ][node                     ] [Joe Cartelli] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 16:47:54,643][INFO ][node                     ] [Joe Cartelli] initializing ...
+[2016-09-26 16:47:55,716][INFO ][plugins                  ] [Joe Cartelli] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 16:47:55,773][INFO ][env                      ] [Joe Cartelli] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.5gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 16:47:55,775][INFO ][env                      ] [Joe Cartelli] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 16:47:58,332][INFO ][node                     ] [Joe Cartelli] initialized
+[2016-09-26 16:47:58,333][INFO ][node                     ] [Joe Cartelli] starting ...
+[2016-09-26 16:47:58,400][INFO ][transport                ] [Joe Cartelli] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 16:47:58,409][INFO ][discovery                ] [Joe Cartelli] elasticsearch/uXz0L0WcR-eW43nq8ELnLQ
+[2016-09-26 16:48:01,506][INFO ][cluster.service          ] [Joe Cartelli] new_master {Joe Cartelli}{uXz0L0WcR-eW43nq8ELnLQ}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 16:48:01,540][INFO ][http                     ] [Joe Cartelli] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 16:48:01,542][INFO ][node                     ] [Joe Cartelli] started
+[2016-09-26 16:48:01,723][INFO ][gateway                  ] [Joe Cartelli] recovered [1] indices into cluster_state
+[2016-09-26 16:48:02,613][INFO ][cluster.routing.allocation] [Joe Cartelli] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 16:48:24,781][INFO ][node                     ] [Joe Cartelli] stopping ...
+[2016-09-26 16:48:24,852][INFO ][node                     ] [Joe Cartelli] stopped
+[2016-09-26 16:48:24,853][INFO ][node                     ] [Joe Cartelli] closing ...
+[2016-09-26 16:48:24,862][INFO ][node                     ] [Joe Cartelli] closed
+[2016-09-26 16:49:26,134][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 16:49:26,489][INFO ][node                     ] [Karl Lykos] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 16:49:26,490][INFO ][node                     ] [Karl Lykos] initializing ...
+[2016-09-26 16:49:27,409][INFO ][plugins                  ] [Karl Lykos] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 16:49:27,460][INFO ][env                      ] [Karl Lykos] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.5gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 16:49:27,461][INFO ][env                      ] [Karl Lykos] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 16:49:29,999][INFO ][node                     ] [Karl Lykos] initialized
+[2016-09-26 16:49:30,000][INFO ][node                     ] [Karl Lykos] starting ...
+[2016-09-26 16:49:30,061][INFO ][transport                ] [Karl Lykos] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 16:49:30,069][INFO ][discovery                ] [Karl Lykos] elasticsearch/DgYDUpjmStexojoGJVYAzQ
+[2016-09-26 16:49:33,206][INFO ][cluster.service          ] [Karl Lykos] new_master {Karl Lykos}{DgYDUpjmStexojoGJVYAzQ}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 16:49:33,241][INFO ][http                     ] [Karl Lykos] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 16:49:33,243][INFO ][node                     ] [Karl Lykos] started
+[2016-09-26 16:49:33,422][INFO ][gateway                  ] [Karl Lykos] recovered [1] indices into cluster_state
+[2016-09-26 16:49:34,027][INFO ][cluster.routing.allocation] [Karl Lykos] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 16:49:50,556][INFO ][node                     ] [Karl Lykos] stopping ...
+[2016-09-26 16:49:50,639][INFO ][node                     ] [Karl Lykos] stopped
+[2016-09-26 16:49:50,640][INFO ][node                     ] [Karl Lykos] closing ...
+[2016-09-26 16:49:50,651][INFO ][node                     ] [Karl Lykos] closed
+[2016-09-26 17:04:40,590][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 17:04:40,944][INFO ][node                     ] [Bes] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 17:04:40,946][INFO ][node                     ] [Bes] initializing ...
+[2016-09-26 17:04:42,322][INFO ][plugins                  ] [Bes] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 17:04:42,402][INFO ][env                      ] [Bes] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [37.4gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 17:04:42,403][INFO ][env                      ] [Bes] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 17:04:46,699][INFO ][node                     ] [Bes] initialized
+[2016-09-26 17:04:46,720][INFO ][node                     ] [Bes] starting ...
+[2016-09-26 17:04:47,510][INFO ][transport                ] [Bes] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 17:04:47,541][INFO ][discovery                ] [Bes] elasticsearch/t8I0XJqRRgCEdOVff7itcA
+[2016-09-26 17:04:50,721][INFO ][cluster.service          ] [Bes] new_master {Bes}{t8I0XJqRRgCEdOVff7itcA}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 17:04:50,932][INFO ][http                     ] [Bes] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 17:04:50,934][INFO ][node                     ] [Bes] started
+[2016-09-26 17:04:51,173][INFO ][gateway                  ] [Bes] recovered [1] indices into cluster_state
+[2016-09-26 17:04:52,475][INFO ][cluster.routing.allocation] [Bes] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 17:04:59,053][INFO ][cluster.metadata         ] [Bes] [logstash-2016.09.26] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2016-09-26 17:04:59,762][INFO ][cluster.metadata         ] [Bes] [logstash-2016.09.26] create_mapping [demologs]
+[2016-09-26 17:04:59,888][INFO ][cluster.routing.allocation] [Bes] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2016.09.26][4], [logstash-2016.09.26][4]] ...]).
+[2016-09-26 17:05:22,400][INFO ][cluster.metadata         ] [Bes] [.kibana] update_mapping [config]
+[2016-09-26 17:05:24,574][INFO ][cluster.metadata         ] [Bes] [.kibana] create_mapping [search]
