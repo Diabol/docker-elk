@@ -2,3 +2,4 @@
 *.gz
 *.xz
 *.swp
+elasticsearch/data/*
