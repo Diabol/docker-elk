@@ -21,6 +21,7 @@ services:
         image: diabol/logstash
         volumes:
             - ./logstash/config:/opt/logstash/config
+            - ./logstash/demologs:/tmp/demologs
         depends_on:
             - elasticsearch
 

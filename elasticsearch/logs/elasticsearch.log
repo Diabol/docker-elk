@@ -1,0 +1,17 @@
+[2016-09-26 15:36:28,826][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-09-26 15:36:29,263][INFO ][node                     ] [Jocasta] version[2.4.0], pid[1], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2016-09-26 15:36:29,265][INFO ][node                     ] [Jocasta] initializing ...
+[2016-09-26 15:36:30,511][INFO ][plugins                  ] [Jocasta] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-09-26 15:36:30,613][INFO ][env                      ] [Jocasta] using [1] data paths, mounts [[/opt/elasticsearch/data (osxfs)]], net usable_space [38.4gb], net total_space [232.6gb], spins? [possibly], types [fuse.osxfs]
+[2016-09-26 15:36:30,615][INFO ][env                      ] [Jocasta] heap size [999mb], compressed ordinary object pointers [true]
+[2016-09-26 15:36:34,719][INFO ][node                     ] [Jocasta] initialized
+[2016-09-26 15:36:34,746][INFO ][node                     ] [Jocasta] starting ...
+[2016-09-26 15:36:34,978][INFO ][transport                ] [Jocasta] publish_address {172.19.0.2:9300}, bound_addresses {[::]:9300}
+[2016-09-26 15:36:34,991][INFO ][discovery                ] [Jocasta] elasticsearch/_QivUemWSaO2ZFZagl2PIQ
+[2016-09-26 15:36:38,232][INFO ][cluster.service          ] [Jocasta] new_master {Jocasta}{_QivUemWSaO2ZFZagl2PIQ}{172.19.0.2}{172.19.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-09-26 15:36:38,328][INFO ][http                     ] [Jocasta] publish_address {172.19.0.2:9200}, bound_addresses {[::]:9200}
+[2016-09-26 15:36:38,332][INFO ][node                     ] [Jocasta] started
+[2016-09-26 15:36:38,451][INFO ][gateway                  ] [Jocasta] recovered [0] indices into cluster_state
+[2016-09-26 15:36:45,299][INFO ][cluster.metadata         ] [Jocasta] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2016-09-26 15:36:45,669][INFO ][cluster.routing.allocation] [Jocasta] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-09-26 15:38:26,994][INFO ][cluster.metadata         ] [Jocasta] [.kibana] create_mapping [index-pattern]
