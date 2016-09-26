@@ -1,4 +1,4 @@
-FROM centos:7
+FROM diabol/elkbase
 MAINTAINER Diabol.se
 RUN set -ex \
 	&& curl -L -o /opt/logstash.tar.gz https://download.elastic.co/logstash/logstash/logstash-all-plugins-2.4.0.tar.gz \

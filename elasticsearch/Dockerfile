@@ -1,7 +1,8 @@
-FROM centos:7
+FROM diabol/elkbase
 MAINTAINER Diabol.se
 RUN set -ex \
-	&& curl -L -o /opt/elasticsearch.tar.gz https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz \
+	&& curl -L -o /opt/elasticsearch.tar.gz \
+            https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz \
 	&& tar -xzf /opt/elasticsearch.tar.gz -C /opt \
         && yum update -y \
         && groupadd elasticsearch \

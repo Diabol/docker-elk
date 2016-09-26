@@ -1,4 +1,4 @@
-FROM centos:7
+FROM diabol/elkbase
 MAINTAINER Diabol.se
 RUN set -ex \
         && curl -L -o /opt/kibana.tar.gz https://download.elastic.co/kibana/kibana/kibana-4.6.1-linux-x86_64.tar.gz \
