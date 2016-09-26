@@ -3,3 +3,4 @@
 *.xz
 *.swp
 elasticsearch/data/*
+elasticsearch/logs/*
